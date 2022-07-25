@@ -13,11 +13,20 @@
         <Label Content="Firstname" HorizontalAlignment="Left" Margin="389,29,0,0" VerticalAlignment="Top" Width="164"/>
         <Label Content="Lastname" HorizontalAlignment="Left" Margin="389,60,0,0" VerticalAlignment="Top" Width="164" Height="25"/>
         <Label Content="Department" HorizontalAlignment="Left" Margin="389,90,0,0" VerticalAlignment="Top" Width="164" Height="25"/>
-        <TextBox HorizontalAlignment="Left" Margin="525,33,0,0" TextWrapping="Wrap" Text="{Binding Person.Firstname}" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="525,64,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding Person.Lastname}"/>
-        <TextBox HorizontalAlignment="Left" Margin="525,94,0,0" TextWrapping="Wrap" Text="{Binding Person.Departement}" VerticalAlignment="Top" Width="120" />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="427,182,0,0" VerticalAlignment="Top" Width="158"/>
-        <ListBox Margin="0,0,463,0"/>
+        <TextBox HorizontalAlignment="Left" Margin="525,33,0,0" TextWrapping="Wrap" Text="{Binding NewPerson.Firstname}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="525,64,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding NewPerson.Lastname}"/>
+        <TextBox HorizontalAlignment="Left" Margin="525,94,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding NewPerson.Departement}" />
+        <Button Content="Button" HorizontalAlignment="Left" Margin="427,182,0,0" VerticalAlignment="Top" Width="158" Command="{Binding AddPersonCommand}"/>
+        <ListBox Margin="0,0,463,0" ItemsSource="{Binding Persons}" SelectedItem="{Binding NewPerson}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding FullName}" FontSize="15" Margin="0,0,0,5" FontWeight="Bold" ></TextBlock>
+                        <TextBlock Text="{Binding Departement}" FontSize="12"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
 
     </Grid>
 </Window>

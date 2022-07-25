@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curencies", "Curencies\Curencies.csproj", "{CF14C48A-D4F4-4AFB-9D13-026C26BE61A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonList", "PersonList\PersonList.csproj", "{22BD4E0C-9A93-40AC-AC3F-27A1F02FFDA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonList", "PersonList\PersonList.csproj", "{22BD4E0C-9A93-40AC-AC3F-27A1F02FFDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBasics", "WpfBasics\WpfBasics.csproj", "{5FCA10F3-14D9-4ABA-B463-F5BB2AAE27F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{22BD4E0C-9A93-40AC-AC3F-27A1F02FFDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22BD4E0C-9A93-40AC-AC3F-27A1F02FFDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22BD4E0C-9A93-40AC-AC3F-27A1F02FFDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCA10F3-14D9-4ABA-B463-F5BB2AAE27F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCA10F3-14D9-4ABA-B463-F5BB2AAE27F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCA10F3-14D9-4ABA-B463-F5BB2AAE27F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCA10F3-14D9-4ABA-B463-F5BB2AAE27F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿using Curencies;
+﻿using MyDll;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -10,24 +10,51 @@ namespace PersonList
 {
     public class PersonViewModel : NotifyableObject
     {
-        ObservableCollection<PersonModel> persons = new ObservableCollection<PersonModel>();
+
         public PersonViewModel()
         {
-            Person = new PersonModel();
+            AddPersonCommand = new(AddPerson);
         }
-        PersonModel person;
-        public PersonModel Person
+
+
+        private Person newPerson = new();
+        public Person NewPerson
         {
-            get => person; set
+            get => newPerson;
+            set
             {
-                if (person != value)
+                if (newPerson != value)
                 {
-                    person = value;
+                    newPerson = value;
                     this.RaisePropertyChanged();
                 }
             }
         }
 
-        public DelegateCommand Save { get; set; }
+        private ObservableCollection<Person> persons = new();
+        public ObservableCollection<Person> Persons
+        {
+            get => persons;
+            set
+            {
+                if (value != persons)
+                {
+                    persons = value;
+                    this.RaisePropertyChanged();
+                }
+            }
+        }
+
+
+        public DelegateCommand AddPersonCommand
+        {
+            get; set;
+        }
+
+        public void AddPerson(object o)
+        {
+            this.persons.Add(newPerson);
+            NewPerson = new();
+        }
     }
 }

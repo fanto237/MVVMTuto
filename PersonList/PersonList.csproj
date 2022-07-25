@@ -7,8 +7,8 @@
 		<UseWPF>true</UseWPF>
 	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Curencies\Curencies.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\WpfBasics\WpfBasics.csproj" />
+	</ItemGroup>
 
 </Project>
