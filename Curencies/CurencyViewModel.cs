@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Curencies
 {
-	internal class CurencyViewModel : BaseViewModel
+	internal class CurencyViewModel : NotifyableObject
 	{
 
 		private decimal _value;

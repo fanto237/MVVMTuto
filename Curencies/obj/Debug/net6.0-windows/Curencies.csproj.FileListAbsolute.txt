@@ -20,3 +20,25 @@ C:\Users\Lucien Leroy Siani\Documents\Workspace\WpfFondamentals\Curencies\obj\De
 C:\Users\Lucien Leroy Siani\Documents\Workspace\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\CurencyView.g.cs
 C:\Users\Lucien Leroy Siani\Documents\Workspace\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Lucien Leroy Siani\Documents\Workspace\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\CurencyView.baml
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\bin\Debug\net6.0-windows\Curencies.exe
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\bin\Debug\net6.0-windows\Curencies.deps.json
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\bin\Debug\net6.0-windows\Curencies.runtimeconfig.json
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\bin\Debug\net6.0-windows\Curencies.dll
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\bin\Debug\net6.0-windows\Curencies.pdb
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.csproj.AssemblyReference.cache
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\CurencyView.g.cs
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies_MarkupCompile.cache
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies_MarkupCompile.lref
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\CurencyView.baml
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.g.resources
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.AssemblyInfoInputs.cache
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.AssemblyInfo.cs
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.csproj.CoreCompileInputs.cache
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.dll
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\refint\Curencies.dll
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.pdb
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\Curencies.genruntimeconfig.cache
+C:\Users\Study\Documents\git\WpfFondamentals\Curencies\obj\Debug\net6.0-windows\ref\Curencies.dll
