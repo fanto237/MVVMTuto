@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "WpfBasics/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WpfBasics.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfBasics.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WpfBasics/1.0.0": {
+      "type": "project",
+      "path": "../WpfBasics/WpfBasics.csproj",
+      "msbuildProject": "../WpfBasics/WpfBasics.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "WpfBasics >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Study\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Study\\Documents\\git\\WpfFondamentals\\WpfBasics\\WpfBasics.csproj": {
+              "projectPath": "C:\\Users\\Study\\Documents\\git\\WpfFondamentals\\WpfBasics\\WpfBasics.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
