@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MyDll;
 
 namespace Curencies
 {
-	internal class CurencyViewModel : BaseViewModel
-	{
+    internal class CurencyViewModel : NotifyableObject
+    {
 
-		private decimal _value;
-		public decimal Value
-		{
-			get => _value; set
-			{
-				if (_value != value)
-					_value = value;
-			}
-		}
-	}
+        private decimal _value;
+        public decimal Value
+        {
+            get => _value; set
+            {
+                if (_value != value)
+                    _value = value;
+            }
+        }
+    }
 }
